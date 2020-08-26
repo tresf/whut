@@ -2,7 +2,7 @@
 Whut package manager should I use?
 
 ```java
-What.getPackageManager();
+Whut.getPackageManager();
 ```
 
 Returns `brew`, `apt`, `dnf`, `choco`, etc.
