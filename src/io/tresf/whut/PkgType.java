@@ -43,7 +43,7 @@ public enum PkgType {
         if(title != null) {
             for (PkgType pkgType : values()) {
                 for (String variant : pkgType.variants) {
-                    if (variant.toLowerCase().contains(variant)) {
+                    if (title.toLowerCase().contains(variant)) {
                         return pkgType;
                     }
                 }

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="whut:jar">
+    <output-path>$PROJECT_DIR$/out/</output-path>
+    <root id="archive" name="whut.jar">
+      <element id="module-output" name="whut" />
+    </root>
+  </artifact>
+</component>

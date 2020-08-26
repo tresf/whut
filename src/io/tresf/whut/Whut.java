@@ -28,7 +28,7 @@ public class Whut {
         releaseLoop:
         for (Map.Entry<String, String> entry : releaseMap.entrySet()) {
             for(String releaseKey : LINUX_RELEASE_KEYS) {
-                if(entry.equals(releaseKey)) {
+                if(entry.getKey().equals(releaseKey)) {
                     if(releaseKey.startsWith("REDHAT")) {
                         pkgType = PkgType.DNF;
                     } else {
